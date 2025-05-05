@@ -244,18 +244,93 @@ footer a:hover {
 
 
 @media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
     .section_1 {
         flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .section_1 h1 {
+        font-size: 28px;
+    }
+
+    .section_1 p {
+        font-size: 16px;
+    }
+
+    img.loll {
+        max-width: 200px;
+        margin-top: 20px;
+    }
+
+    nav, nav.h {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
         align-items: center;
+    }
+
+    nav a, nav.h a {
+        font-size: 16px;
+        padding: 8px 12px;
     }
 
     article {
         flex-direction: column;
         align-items: center;
+        text-align: center;
+        padding: 15px;
     }
 
-    nav a {
+    article img.lol {
+        max-width: 90%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    article h3 {
+        font-size: 20px;
+    }
+
+    article p {
+        font-size: 15px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    p.ezranner {
         font-size: 16px;
-        margin: 0 10px;
+        padding: 15px;
+    }
+
+    footer {
+        padding: 30px 15px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    footer a {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
